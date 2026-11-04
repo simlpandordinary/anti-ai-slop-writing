@@ -21,7 +21,7 @@ Produces human-sounding text that avoids detectable AI writing patterns. Activat
 ├── README.upstream.md
 ├── SKILL.md
 └── references/
-└── banned-words.md
+    └── banned-words.md
 ```
 
 - `SKILL.md` 是技能入口（触发条件 / 工作流 / 约束），安装时必须位于技能根目录。
