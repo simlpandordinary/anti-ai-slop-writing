@@ -17,6 +17,7 @@ Produces human-sounding text that avoids detectable AI writing patterns. Activat
 ## 目录结构
 
 ```
+├── NOTICE.md
 ├── README.upstream.md
 ├── SKILL.md
 └── references/
