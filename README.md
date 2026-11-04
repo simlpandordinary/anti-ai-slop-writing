@@ -17,13 +17,16 @@ Produces human-sounding text that avoids detectable AI writing patterns. Activat
 ## 目录结构
 
 ```
-['SKILL.md', 'references/banned-words.md', 'README.upstream.md']
+├── README.upstream.md
+├── SKILL.md
+└── references/
+└── banned-words.md
 ```
 
 - `SKILL.md` 是技能入口（触发条件 / 工作流 / 约束），安装时必须位于技能根目录。
 - `references/`、`scripts/`、`assets/` 为该技能自带的参考文档、脚本与素材。
 - `README.upstream.md` 为上游仓库原始说明，保留出处与版权信息。
-- `LICENSE` 为上游许可证原文。
+- `NOTICE.md` 说明上游未声明许可，本仓库不授予任何许可。
 
 ## 安装
 
@@ -36,8 +39,6 @@ git clone https://github.com/simlpandordinary/anti-ai-slop-writing.git ~/.workbu
 也可以直接对 AI 说：「把 <https://github.com/simlpandordinary/anti-ai-slop-writing> 装成 Skill」。
 
 安装后用自然语言触发，例如「去 AI 味写作 anti-ai-slop-writing」「用 anti-ai-slop-writing 帮我处理这个任务」。
-
-
 
 ## 版权
 
